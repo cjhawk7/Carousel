@@ -1,0 +1,53 @@
+.mySlides {
+  background: #eee;
+  height: auto;
+  box-shadow: 0 5px 6px -5px rgba(0, 0, 0, 0.5);
+}
+p.student {
+  color: #32071a;
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  opacity: 0;
+  animation-name: fadeInOut;
+  animation-duration: 10s;
+  text-align: center;
+}
+p.quote {
+  font-style: italic;
+  position: relative;
+  opacity: 0;
+  animation-name: fadeInOut;
+  animation-delay: 0.1s;
+  animation-duration: 10s;
+  text-align: center;
+}
+p.author {
+  font-size: 14px;
+  position: relative;
+  color: #32071a;
+  opacity: 0;
+  animation-name: fadeInOut;
+  animation-delay: 0.2s;
+  animation-duration: 10s;
+  text-align: center;
+}
+.comment {
+  padding: 25px;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
