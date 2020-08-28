@@ -10,7 +10,7 @@ p.student {
   position: relative;
   opacity: 0;
   animation-name: fadeInOut;
-  animation-duration: 10s;
+  animation-duration: 3s;
   text-align: center;
 }
 p.quote {
@@ -18,8 +18,8 @@ p.quote {
   position: relative;
   opacity: 0;
   animation-name: fadeInOut;
-  animation-delay: 0.1s;
-  animation-duration: 10s;
+  animation-delay: 0.25s;
+  animation-duration: 3.5s;
   text-align: center;
 }
 p.author {
@@ -28,8 +28,8 @@ p.author {
   color: #32071a;
   opacity: 0;
   animation-name: fadeInOut;
-  animation-delay: 0.2s;
-  animation-duration: 10s;
+  animation-delay: 0.5s;
+  animation-duration: 4s;
   text-align: center;
 }
 .comment {
@@ -41,10 +41,10 @@ p.author {
   0% {
     opacity: 0;
   }
-  10% {
+  40% {
     opacity: 1;
   }
-  90% {
+  60% {
     opacity: 1;
   }
   100% {
